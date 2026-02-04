@@ -436,7 +436,7 @@ const Home = () => {
                                 <div className="flex items-center gap-6 p-4 bg-white/5 border border-white/5 rounded-2xl">
                                     <FaEnvelope className="text-2xl text-cyan-500" />
                                     <span className="font-mono">
-                                        marlou.developer@gmail.com
+                                       judyb.dev@gmail.com
                                     </span>
                                 </div>
                                 <div className="flex gap-4">
@@ -532,7 +532,7 @@ const Home = () => {
                 </AnimatePresence>
 
                 <footer className="py-12 border-t border-white/5 text-center text-gray-600 font-mono text-xs uppercase tracking-widest">
-                    Designed & Engineered by Marlou F. Pepito © 2026
+                    Designed & Engineered by Judy Boy Balansag © 2026
                 </footer>
             </div>
         </div>
