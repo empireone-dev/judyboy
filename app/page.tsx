@@ -116,7 +116,7 @@ const Home = () => {
             size: "col-span-1",
         },
     ];
-    const handleSubmit = (e) => {
+    const handleSubmit = (e:any) => {
         e.preventDefault();
         setFormStatus("loading");
         setTimeout(() => setFormStatus("success"), 2000);
@@ -386,7 +386,7 @@ const Home = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[250px]">
-                        {personalPhotos.map((photo, i) => (
+                        {personalPhotos.map((photo:any, i) => (
                             <motion.div
                                 key={photo.id}
                                 initial={{ opacity: 0, scale: 0.9 }}
@@ -485,7 +485,7 @@ const Home = () => {
                             />
                             <textarea
                                 required
-                                rows="4"
+                                // rows="4"
                                 placeholder="How can I help you?"
                                 className="w-full bg-black/20 border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-cyan-500 transition-colors resize-none"
                             ></textarea>
