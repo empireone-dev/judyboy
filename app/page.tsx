@@ -262,8 +262,8 @@ const Home = () => {
                     <div className="relative group">
                         <div className="absolute -inset-4 bg-cyan-500/20 rounded-2xl blur-xl group-hover:bg-cyan-500/30 transition-all" />
                         <div className="relative aspect-square bg-[#161b22] rounded-2xl border border-white/10 flex items-center justify-center">
-                            <FaReact className="text-[200px] text-cyan-400/10 animate-pulse" />
-                            <img src="/images/pp.jpeg" className="w-full"/>
+                            {/* <FaReact className="text-[200px] text-cyan-400/10 animate-pulse" /> */}
+                            <img src="/images/profile.jpg" className="w-96"/>
                         </div>
                     </div>
                 </div>
