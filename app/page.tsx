@@ -189,9 +189,12 @@ const Home = () => {
                         transition={{ delay: 0.4 }}
                         className="mt-10 flex flex-wrap gap-4 justify-center"
                     >
-                        <button className="px-8 py-4 bg-cyan-500 text-black font-bold rounded-full hover:scale-105 transition-transform">
+                        <a 
+                        href="/folder/my_cv.pdf"
+                        target="_blank"
+                        className="px-8 py-4 bg-cyan-500 text-black font-bold rounded-full hover:scale-105 transition-transform">
                             View Resume
-                        </button>
+                        </a>
                         <a
                             href="#contact"
                             className="px-8 py-4 border border-white/10 rounded-full hover:bg-white/5 transition-colors"
