@@ -81,37 +81,37 @@ const Home = () => {
     const personalPhotos = [
         {
             id: 1,
-            src: "https://picsum.photos/id/1/367/267",
+            src: "/images/cover1.jpg",
             title: "At the Office",
             size: "row-span-2",
         },
         {
             id: 2,
-            src: "https://picsum.photos/id/1/367/267",
+            src: "/images/cover2.jpg",
             title: "Tech Conference",
             size: "col-span-1",
         },
         {
             id: 3,
-            src: "https://picsum.photos/536/354",
+            src: "/images/cover3.jpg",
             title: "Speaking Event",
             size: "col-span-1",
         },
         {
             id: 4,
-            src: "https://picsum.photos/id/1/367/267",
+            src: "/images/cover4.jpg",
             title: "Coding Session",
             size: "row-span-2",
         },
         {
             id: 5,
-            src: "https://picsum.photos/id/1/367/267",
+            src: "/images/cover5.jpg",
             title: "Workshop",
             size: "col-span-1",
         },
         {
             id: 6,
-            src: "https://picsum.photos/id/1/367/267",
+            src: "/images/cover6.jpg",
             title: "Team Outing",
             size: "col-span-1",
         },
